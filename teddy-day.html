@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teddy Day Shai 🧸</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #ffb6d5, #ffe6f2);
+            color: #c2185b;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Valentine Week Navigation */
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .nav span {
+            background: #ff69b4;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .card {
+            max-width: 440px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 30px;
+            padding: 30px 22px;
+            box-shadow: 0 15px 35px rgba(255, 20, 147, 0.35);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .to {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        /* Glowing name */
+        .name {
+            color: #ff1493;
+            text-shadow: 0 0 8px #ff69b4, 0 0 16px #ffc0cb;
+            animation: sparkle 2s infinite alternate;
+        }
+
+        @keyframes sparkle {
+            0% { text-shadow: 0 0 8px #ff69b4; }
+            100% { text-shadow: 0 0 18px #ff1493, 0 0 30px #ffc0cb; }
+        }
+
+        .message {
+            font-size: 1.35em;
+            line-height: 1.5;
+            margin: 18px 0;
+        }
+
+        .gif-container img {
+            width: 260px;
+            border-radius: 22px;
+            margin: 15px 0;
+        }
+
+        button {
+            background: linear-gradient(135deg, #ff69b4, #ff1493);
+            border: none;
+            color: white;
+            padding: 12px 26px;
+            font-size: 1.1em;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 18px;
+            box-shadow: 0 6px 15px rgba(255,20,147,0.4);
+            animation: bounce 2s infinite;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-6px); }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0px); }
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 1em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Valentine Week Navigation -->
+    <div class="nav">
+        <span>🌹 7 Feb – Rose</span>
+        <span>💍 8 Feb – Propose</span>
+        <span>🍫 9 Feb – Chocolate</span>
+        <span>🧸 10 Feb – Teddy</span>
+        <span>🤝 11 Feb – Promise</span>
+        <span>🤗 12 Feb – Hug</span>
+        <span>💋 13 Feb – Kiss</span>
+        <span>❤️ 14 Feb – Valentine</span>
+    </div>
+
+    <div class="card">
+        <div class="to">To: <span class="name">MY WIFEYY 💌</span></div>
+
+        <h1>Happy Teddy Day, <span class="name">MY WIFEYY</span> 🧸</h1>
+
+        <div class="message">
+            This teddy may be soft and cute,<br>
+            but it still can’t hug you the way I do.
+        </div>
+
+        <div class="gif-container">
+            <img src="teddy.gif" alt="Cute teddy day gif">
+        </div>
+
+        <div class="message">
+            Whenever you feel low or miss me,<br>
+            imagine this teddy hugging you tight 💕
+        </div>
+
+        <button onclick="alert('🧸 Sending you the biggest hug, MY MY WIFEYY MY WIFEY MY EVERYTHING MY CUTIE PIEE  💗')">
+            Hug the Teddy 🤗
+        </button>
+
+        <footer>
+            Always here for you 💞
+        </footer>
+    </div>
+
+</body>
+</html>
